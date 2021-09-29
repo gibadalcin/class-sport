@@ -1,0 +1,45 @@
+.glow {
+    z-index: 5;
+    height: 45%;
+    width: 23%;
+    filter: blur(8px);
+    background-color: transparent;
+    top: 16%;
+    border-radius: 100%;
+    transform: scale(1.1);
+    animation: glow 0.5s 1.2s linear forwards;
+}
+
+@keyframes glow {
+    to {
+        background: radial-gradient( #fff 10%, #58aeffcc 30%, rgba(0, 0, 172, 0.719) 60%, #00000034 90%);
+    }
+}
+
+.left-glow {
+    left: -3%;
+}
+
+.right-glow {
+    right: -3%;
+}
+
+
+.shadow {
+    height: 60%;
+    width: 7%;
+    background-color: rgba(0, 0, 0, 0.548);
+    z-index: 10;
+    border-radius: 40px;
+    top: 19%;
+}
+
+.shadow-left {
+    left: 8%;
+    transform: rotate(-15deg);
+}
+
+.shadow-right {
+    right: 8%;
+    transform: rotate(15deg);
+}

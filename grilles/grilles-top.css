@@ -1,0 +1,174 @@
+/*espaço da grade central superior*/
+.grilles__top {
+    position: absolute;
+    width: 53.5%;
+    height: 30%;
+    border: 1px solid #CCC;
+    left: 23.5%;
+    top: 38%;
+    border-radius: 160px 160px 90px 90px;
+    border-bottom: transparent;
+}
+.grilles__top1 {
+    position: absolute;
+    width: 40%;
+    height: 30%;
+    border: 1px solid white;
+    left: 30.6%;
+    top: 46.7%;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    
+}
+/*
+.grilles__top1--adjust1 {
+    position: absolute;
+    width: 10%;
+    height: 8%;
+    border: 1px solid white;
+    background-color: black;
+    left: 21.4%;
+    top: 71.8%;
+    transform: rotate(26deg);
+    border-radius: 0px 0px 0px 0px;
+    border-bottom: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+*/
+
+/*grade central superior asa esquerda*/
+.grilles__in--left {
+    position: absolute;
+    width: 20.2%;
+    height: 6%;
+    background-color: #ccc;
+    border-radius: 160% 0px 0px 160%;
+    left: 23.4%;
+    top: 55%;
+}
+.grilles__in--left-adjust1 {
+    position: absolute;
+    width: 18.5%;
+    height: 10%;
+    border: 1px solid black ;
+    border-radius: 0 0 0 0;
+    border-bottom: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    left: 23.1%;
+    top: 57%;  
+}
+.grilles__in--left-adjust2 {
+    position: absolute;
+    width: 20.5%;
+    height: 5%;
+    border: 2px solid black ;
+    border-radius: 0 20px 0 0;
+    background-color: black;
+    left: 23.1%;
+    top: 59.4%;
+}
+.grilles__in--left-adjust3 {
+    position: absolute;
+    width: 20.5%;
+    height: 5%;
+    border: 2px solid black ;
+    border-radius: 0 0 10px 0px;
+    background-color: black;
+    left: 23.6%;
+    top: 51.4%;
+}
+
+
+/*grade central superior asa direita*/
+.grilles__in--right {
+    position: absolute;
+    width: 20.5%;
+    height: 6%;
+    background-color: #ccc;
+    border-radius: 0% 160% 160% 0%;
+    right: 23.1%;
+    top: 55%;
+}
+.grilles__in--right-adjust1 {
+    position: absolute;
+    width: 18.5%;
+    height: 10%;
+    border: 1px solid black ;
+    border-radius: 0 0 0 0;
+    border-bottom: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    right: 23.1%;
+    top: 57%;  
+}
+.grilles__in--right-adjust2 {
+    position: absolute;
+    width: 20.5%;
+    height: 5%;
+    border: 2px solid black ;
+    border-radius: 20px 0 0 0;
+    background-color: black;
+    right: 23.1%;
+    top: 59.4%;
+}
+.grilles__in--right-adjust3 {
+    position: absolute;
+    width: 20.5%;
+    height: 5%;
+    border: 2px solid black ;
+    border-radius: 0 0 0 10px;
+    background-color: black;
+    right: 23.6%;
+    top: 51.4%;
+}
+
+
+
+/*grade central ajustes em angulo*/
+.grilles__top--left {
+    position: absolute;
+    width: 7%;
+    height: 28.5%;
+    border: 1.6px solid #CCC;
+    background-color: black;
+    border-bottom: transparent;
+    border-right: transparent;
+    left: 23.8%;
+    top: 48%;
+    border-radius: 8px 0px 0px 0px;
+    transform: rotate(-60deg);
+}
+.grilles__top--left1 {
+    
+}
+.grilles__top--left2 {
+    position: absolute;
+    width: 6%;
+    height: 5%;
+    border: 1px solid #CCC;
+    border-bottom: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    background-color: black;
+    left: 21%;
+    top: 52.2%;
+    transform: rotate(-60deg);
+}
+
+
+.grilles__top--right {
+    position: absolute;
+    width: 7%;
+    height: 28%;
+    border: 1.6px solid #CCC;
+    background-color: black;
+    border-bottom: transparent;
+    border-left: transparent;
+    right: 23.1%;
+    top: 48%;
+    border-radius: 0px 8px 0px 0px;
+    transform: rotate(60deg);
+}

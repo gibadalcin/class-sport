@@ -1,0 +1,222 @@
+/*espaço grade central inferior*/
+.grilles__bottom {
+    position: absolute;
+    width: 62%;
+    height: 25%;
+    border: 1px solid white;
+    border-bottom: transparent;
+    border-radius: 120px 120px 10px 10px;
+    left: 19.5%;
+    top: 86%;
+}
+.grilles__bottom--middle {
+    position: absolute;
+    width: 61%;
+    height: 1.5%;
+    background-color: #ccc;
+    border-radius: 10px 10px 10px 10px;
+    left: 20%;
+    top: 103%;
+}
+.grilles__middle--adjust1 {
+    position: absolute;
+    width: 59.8%;
+    height: 1%;
+    background-color: #222;
+    border-radius: 10px 10px 10px 10px;
+    left: 20.5%;
+    top: 103.6%;
+}
+.grilles__middle--adjust2 {
+    position: absolute;
+    width: 63%;
+    height: 20%;
+    border-radius: 40% 40% 10px 10px;
+    border: 2px solid #333;
+    border-bottom: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    left: 19%;
+    top: 108%;
+}
+.grilles__bottom--append {
+    position: absolute;
+    width: 54%;
+    height: 25%;
+    border: 1px solid #333;
+    border-bottom: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-radius: 10% 10% 0 0;
+    left: 23.6%;
+    top: 114%;
+}
+.grilles__bottom--finish {
+    position: absolute;
+    width: 54%;
+    height: 25%;
+    border: 5px solid #ccc;
+    border-bottom: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-radius: 10% 10% 0 0;
+    left: 23.6%;
+    top: 114.1%;
+}
+.grilles__finish--adjust {
+    position: absolute;
+    width: 51%;
+    height: 25%;
+    border: 1px solid #333;
+    border-bottom: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    left: 26%;
+    top: 114.9%;
+}
+
+
+
+
+/*detalhes verticais grade inferior*/
+.grilles__middle--vertical1 {
+    position: absolute;
+    width: 1.8%;
+    height: 1%;
+    background-color: #999;
+    border-radius: 10px 10px 10px 10px;
+    left: 26.5%;
+    top: 108%;
+    transform: rotate(-90deg);
+}
+.grilles__middle--vertical1 {
+    position: absolute;
+    width: 1.4%;
+    height: 1%;
+    background-color: #999;
+    border-radius: 10px 10px 10px 10px;
+    left: 26.5%;
+    top: 107%;
+    transform: rotate(-90deg);
+}
+.grilles__middle--vertical2 {
+    position: absolute;
+    width: 1.8%;
+    height: 1%;
+    background-color: #999;
+    border-radius: 10px 10px 10px 10px;
+    left: 37%;
+    top: 105%;
+    transform: rotate(-90deg);
+}
+.grilles__middle--vertical3 {
+    position: absolute;
+    width: 1.8%;
+    height: 1%;
+    background-color: #999;
+    border-radius: 10px 10px 10px 10px;
+    left: 49%;
+    top: 105%;
+    transform: rotate(-90deg);
+}
+.grilles__middle--vertical4 {
+    position: absolute;
+    width: 1.8%;
+    height: 1%;
+    background-color: #999;
+    border-radius: 10px 10px 10px 10px;
+    left: 62%;
+    top: 105%;
+    transform: rotate(-90deg);
+}
+.grilles__middle--vertical5 {
+    position: absolute;
+    width: 1.8%;
+    height: 1%;
+    background-color: #999;
+    border-radius: 10px 10px 10px 10px;
+    left: 73%;
+    top: 107%;
+    transform: rotate(-90deg);
+}
+
+
+
+/*detalhes em ângulo grade inferior*/
+.grilles__middle--angulo1 {
+    position: absolute;
+    width: 4%;
+    height: 2%;
+    border: 1px solid white;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    left: 17.2%;
+    top: 105%;
+    transform: rotate(-66deg);
+}
+.grilles__middle--angulo1-1 {
+    position: absolute;
+    width: 4%;
+    height: 3%;
+   background-color:  black;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    left: 18%;
+    top: 107%;
+    transform: rotate(-70deg);
+}
+.grilles__middle--angulo2 {
+    position: absolute;
+    width: 4%;
+    height: 2%;
+    border: 1px solid white;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    right: 16%;
+    top: 105%;
+    transform: rotate(69deg);
+}
+.grilles__middle--angulo2-1 {
+    position: absolute;
+    width: 4%;
+    height: 3%;
+    background-color:  black;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    right: 16.8%;
+    top: 107%;
+    transform: rotate(70deg);
+}
+
+.grilles__middle--angulo3 {
+    position: absolute;
+    width: 6%;
+    height: 2%;
+    border: 1px solid white;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    left: 19%;
+    top: 115%;
+    transform: rotate(-12deg);
+}
+
+.grilles__middle--angulo4 {
+    position: absolute;
+    width: 6%;
+    height: 2%;
+    border: 1px solid white;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    right: 18%;
+    top: 115%;
+    transform: rotate(12deg);
+}
+
+
+

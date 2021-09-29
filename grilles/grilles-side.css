@@ -1,0 +1,22 @@
+.grilles__side--right {
+    width: 4%;
+    height: 96%;
+    border:.1px solid #ccc;
+    border-left: transparent;
+    right: -0.8%;
+    border-top: transparent;
+    border-bottom: transparent;
+    top:22%;
+    border-radius: 0% 120% 50% 0%;
+}
+.grilles__side--left {
+    width: 4%;
+    height: 96%;
+    border:.1px solid #ccc;
+    border-right: transparent;
+    left: 0%;
+    border-top: transparent;
+    border-bottom: transparent;
+    top:22%;
+    border-radius: 160% 0% 0% 50%;
+}
