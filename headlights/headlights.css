@@ -232,8 +232,10 @@
         border-right: transparent;
         border-radius: 5px 5px 5px 50px;
         transform: rotate(-20deg);
-        top: 34%;
+        top: 42%;
         right: 5%;
+        transform-origin: left center;
+        filter: blur(1px); 
     }
     .headlight__right--glass-adjust1 {
         position: absolute;
@@ -245,8 +247,10 @@
         border-top: transparent;
         border-radius: 5px 5px 50px 5px;
         transform: rotate(-30deg);
-        top: 31%;
-        right: 5.2%;
+        top: 43%;
+        right: 4%;
+        transform-origin: left center;
+        filter: blur(1px); 
     }
     .headlight__left--glass {
         position: absolute;
@@ -258,8 +262,10 @@
         border-right: transparent;
         border-radius: 5px 5px 5px 50px;
         transform: rotate(18deg);
-        top: 34%;
+        top: 27%;
         left: 5.8%;
+        transform-origin: left center;
+        filter: blur(1px); 
     }
     .headlight__left--glass-adjust1 {
         position: absolute;
@@ -271,7 +277,9 @@
         border-top: transparent;
         border-radius: 5px 5px 5px 50px;
         transform: rotate(29deg);
-        top: 31%;
-        left: 5.6%;
+        top: 20%;
+        left: 6.8%;
+        transform-origin: left center;
+        filter: blur(1px); 
     }
 }
