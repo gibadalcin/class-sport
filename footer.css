@@ -1,5 +1,5 @@
 footer {
-    width: 40%;
+    min-width: 40%;
     height: auto;
     display: flex;
     justify-content: center;
