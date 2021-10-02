@@ -101,32 +101,32 @@
 }
 .grilles__middle--vertical2 {
     position: absolute;
-    width: 1.8%;
+    width: 1.4%;
     height: 1%;
     background-color: #999;
     border-radius: 10px 10px 10px 10px;
     left: 37%;
-    top: 105%;
+    top: 106%;
     transform: rotate(-90deg);
 }
 .grilles__middle--vertical3 {
     position: absolute;
-    width: 1.8%;
+    width: 1.2%;
     height: 1%;
     background-color: #999;
     border-radius: 10px 10px 10px 10px;
     left: 49%;
-    top: 105%;
+    top: 106%;
     transform: rotate(-90deg);
 }
 .grilles__middle--vertical4 {
     position: absolute;
-    width: 1.8%;
+    width: 1.4%;
     height: 1%;
     background-color: #999;
     border-radius: 10px 10px 10px 10px;
     left: 62%;
-    top: 105%;
+    top: 106%;
     transform: rotate(-90deg);
 }
 .grilles__middle--vertical5 {
@@ -147,13 +147,13 @@
     position: absolute;
     width: 4%;
     height: 2%;
-    border: 1px solid white;
+    border: 1.2px solid white;
     border-top: transparent;
     border-left: transparent;
     border-right: transparent;
-    left: 17.2%;
+    left: 17.3%;
     top: 105%;
-    transform: rotate(-66deg);
+    transform: rotate(-76deg);
 }
 .grilles__middle--angulo1-1 {
     position: absolute;
@@ -175,9 +175,9 @@
     border-top: transparent;
     border-left: transparent;
     border-right: transparent;
-    right: 16%;
+    right: 16.1%;
     top: 105%;
-    transform: rotate(69deg);
+    transform: rotate(73deg);
 }
 .grilles__middle--angulo2-1 {
     position: absolute;
