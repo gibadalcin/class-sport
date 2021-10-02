@@ -1,0 +1,14 @@
+footer {
+    min-width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.description {
+    color: #ccc;
+    font-family: Caveat-Regular, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.description span {
+    color: red;
+}
