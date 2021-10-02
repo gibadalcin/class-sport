@@ -85,9 +85,9 @@ body {
     border-right: transparent;
     border-bottom: transparent;
     border-radius: 160%;
-    left: 76%;
+    left: 76.4%;
     top: 56%;
-    transform: rotate(56deg);
+    transform: rotate(59deg);
 }
 
 .window-frame-right::after {
@@ -95,7 +95,7 @@ body {
     position: absolute;
     height: 310%;
     width: 100%;
-    border-right: 0.3vw solid #ffffffd0;
+    border-right: 0.3vw solid white;
     border-radius: 100%;
     transform: rotate(-35deg);
     top: -90%;
