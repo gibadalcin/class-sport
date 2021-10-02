@@ -14,10 +14,9 @@ body {
 }
 
 .canvas {
-    margin-top: 200px;
     min-width: 570px;
     width: 60%;
-    margin: 0 auto;
+    margin: auto auto;
     aspect-ratio: 1.5/1;
     position: relative;
     display: flex;
