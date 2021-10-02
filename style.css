@@ -1,6 +1,5 @@
 body {
     margin-top: 100px;
-    margin: auto auto;
     background-color: black;
     height: 100vh;
     display: flex;
@@ -17,7 +16,6 @@ body {
 }
 
 .canvas {
-    margin: auto auto;
     min-width: 570px;
     width: 60%;
     aspect-ratio: 1.5/1;
@@ -26,7 +24,6 @@ body {
     justify-content: center;
     align-items: center;
     max-width: 20%;
-    
 }
 
 .canvas * {
@@ -132,7 +129,7 @@ body {
     top: 41%;
     border-radius: 30%;
 }
-.capo {
+.hood {
     position: relative;
     width: 84%;
     height: 10%;
@@ -142,6 +139,55 @@ body {
     transform-origin: top center;
     border-top: transparent;
     top: 12%;
+}
+.creases__hood--left {
+    width: 12%;
+    height: 20%;
+    border-bottom: .1px solid #ccc;
+    border-right: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    transform: rotate(35deg);
+    border-radius: 60% 100% 10% 50%;
+    left: 17.4%;
+    top: 5%;
+}
+.creases__hood--left-adjust {
+    width: 12%;
+    height: 20%;
+    border: .1px solid #10101b;
+    border-right: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    transform: rotate(35deg);
+    border-radius: 60% 100% 10% 50%;
+    left: 17.5%;
+    top: 5%;
+}
+
+.creases__hood--right {
+    width: 12%;
+    height: 20%;
+    border-bottom: .1px solid #ccc;
+    border-right: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    transform: rotate(-35deg);
+    border-radius: 100% 60% 50% 10%;
+    right: 17.1%;
+    top: 5%;
+}
+.creases__hood--right-adjust {
+    width: 12%;
+    height: 20%;
+    border: .1px solid #10101b;
+    border-right: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    transform: rotate(-35deg);
+    border-radius: 100% 60% 50% 10%;
+    right: 17.2%;
+    top: 5%;
 }
 
 .bottom-top {
