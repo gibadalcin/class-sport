@@ -1,6 +1,6 @@
 body {
     margin-top: 100px;
-    margin: 0 auto;
+    margin: auto auto;
     background-color: black;
     height: 100vh;
     display: flex;
@@ -17,6 +17,7 @@ body {
 }
 
 .canvas {
+    margin: auto auto;
     min-width: 570px;
     width: 60%;
     aspect-ratio: 1.5/1;
