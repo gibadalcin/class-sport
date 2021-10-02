@@ -1,5 +1,6 @@
 body {
     margin-top: 100px;
+    margin: 0 auto;
     background-color: black;
     height: 100vh;
     display: flex;
@@ -16,6 +17,7 @@ body {
 }
 
 .canvas {
+    margin: 0 auto;
     min-width: 570px;
     width: 60%;
     aspect-ratio: 1.5/1;
@@ -24,6 +26,7 @@ body {
     justify-content: center;
     align-items: center;
     max-width: 20%;
+    
 }
 
 .canvas * {
