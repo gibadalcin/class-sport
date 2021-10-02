@@ -8,7 +8,10 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="rgba(00,00,00,0.8)" />
     <meta name="msapplication-navbutton-color" content="rgba(00,00,00,0.8)" />
     <title>Mercedes Class L Sport</title>
+    <link rel="stylesheet" href="/fonts.css">
+    <link rel="stylesheet" href="/simbols/simbol-large.css">
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/footer.css">
     <link rel="stylesheet" href="/grilles/grilles-bottom.css">
     <link rel="stylesheet" href="/grilles/grilles-top.css">
     <link rel="stylesheet" href="/grilles/grilles-bottom-left.css">
@@ -18,16 +21,30 @@
     <link rel="stylesheet" href="/headlights/headlights.css">
     <link rel="stylesheet" href="/simbols/simbol-front.css">
     <link rel="shortcut icon" href="/images/logo.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="canvas">
         <div class="dark"></div>
+        <div class="simbol__large">
+            <div class="simbol__large--triangle1"></div>
+            <div class="simbol__large--triangle1-1"></div>
+            <div class="simbol__large--triangle1-adjust"></div>
+            <div class="simbol__large--triangle2"></div>
+            <div class="simbol__large--triangle2-1"></div>
+            <div class="simbol__large--triangle2-adjust"></div>
+            <div class="simbol__large--triangle3-1"></div>
+        </div>
         <div class="window">
             <div class="window-frame-top"></div>
             <div class="window-frame-left"></div>
             <div class="window-frame-right"></div>
+            <div class="window-frame-right1"></div>
             <div class="window-frame-bottom"></div>
         </div>
+        
         <div class="bottom">
             <div class="capo"></div>
             <div class="left-glow glow"></div>
@@ -122,11 +139,15 @@
             <div class="simbol__front">
                <div class="simbol__front--triangle1"></div>
                <div class="simbol__front--triangle1-1"></div>
-               <div class="simbol__front--triangle2"></div> 
-               <div class="simbol__front--triangle2-1"></div> 
-               <div class="simbol__front--triangle3"></div>
-               <div class="simbol__front--triangle3-1"></div>  
             </div>
+            <div class="simbol__front">
+                <div class="simbol__front--triangle2"></div> 
+                <div class="simbol__front--triangle2-1"></div> 
+             </div>
+             <div class="simbol__front">
+                <div class="simbol__front--triangle3"></div>
+                <div class="simbol__front--triangle3-1"></div>  
+             </div>
             
             <div class="grilles__bottom"></div>
             <div class="grilles__bottom--finish"></div>
@@ -239,5 +260,11 @@
             </div>
         </div>
     </div>
+    <footer>
+        <div class="description">
+           Scratch CSS - Mercedes-Benz Class L <span>Sport</span> @gibadalcin
+        </div>
+        <div class="signature"></div>
+    </footer>
 </body>
 </html>
