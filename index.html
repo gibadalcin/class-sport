@@ -8,35 +8,69 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="rgba(00,00,00,0.8)" />
     <meta name="msapplication-navbutton-color" content="rgba(00,00,00,0.8)" />
     <title>Mercedes Class L Sport</title>
-    <link rel="stylesheet" href="/fonts.css">
-    <link rel="stylesheet" href="/simbols/simbol-large.css">
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/footer.css">
-    <link rel="stylesheet" href="/grilles/grilles-bottom.css">
-    <link rel="stylesheet" href="/grilles/grilles-top.css">
-    <link rel="stylesheet" href="/grilles/grilles-bottom-left.css">
-    <link rel="stylesheet" href="/grilles/grilles-bottom-right.css">
-    <link rel="stylesheet" href="/grilles/grilles-side.css">
-    <link rel="stylesheet" href="/headlights/glow.css">
-    <link rel="stylesheet" href="/headlights/headlights.css">
-    <link rel="stylesheet" href="/simbols/simbol-front.css">
+    <link rel="stylesheet" href="/assets/css/simbol-large.css">
+    <link rel="stylesheet" href="/assets/css/bottom-area/simbols/simbol-front.css">
+    <link rel="stylesheet" href="/assets/css/bottom-area/simbols/simbol-top.css">
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/utils/fonts.css">
+
+    <link rel="stylesheet" href="/assets/css/bottom-area/mirrors/mirrors.css">
+    <link rel="stylesheet" href="/assets/css/bottom-area/mirrors/mirror.css">
+    <link rel="stylesheet" href="/assets/css/bottom-area/mirrors/mirror-right.css">
+    <link rel="stylesheet" href="/assets/css/bottom-area/mirrors/mirror-left.css">
+    <link rel="stylesheet" href="/assets/css/bottom-area/mirrors/mirror-bottom.css">
+
+    <link rel="stylesheet" href="/assets/css/top-area/windows/window.css">
+    <link rel="stylesheet" href="/assets/css/top-area/windows/window-frame-top.css">
+    <link rel="stylesheet" href="/assets/css/top-area/windows/window-frame-right.css">
+    <link rel="stylesheet" href="/assets/css/top-area/windows/window-frame-left.css">
+    <link rel="stylesheet" href="/assets/css/top-area/windows/window-frame-bottom.css">
+
+    <link rel="stylesheet" href="/assets/css/bottom-area/hood/creases-hood-left.css">
+    <link rel="stylesheet" href="/assets/css/bottom-area/hood/creases-hood-right.css">
+
+    <link rel="stylesheet" href="/assets/css/bottom-area/bottom.css">
+    <link rel="stylesheet" href="/assets/css/bottom-area/bottom-top.css">
+    <link rel="stylesheet" href="/assets/css/bottom-area/bottom-top-right.css">
+    <link rel="stylesheet" href="/assets/css/bottom-area/bottom-top-left.css">
+
+    <link rel="stylesheet" href="/assets/css/bottom-area/headlights/headlights.css">
+    <link rel="stylesheet" href="/assets/css/bottom-area/headlights/glow.css">
+
+    <link rel="stylesheet" href="/assets/css/bottom-area/grilles/grilles-bottom.css">
+    <link rel="stylesheet" href="/assets/css/bottom-area/grilles/grilles-top.css">
+    <link rel="stylesheet" href="/assets/css/bottom-area/grilles/grilles-bottom-left.css">
+    <link rel="stylesheet" href="/assets/css/bottom-area/grilles/grilles-bottom-right.css">
+    <link rel="stylesheet" href="/assets/css/bottom-area/grilles/grilles-side.css">
+
+    <link rel="stylesheet" href="/assets/css/bottom-area/license-plate/license-plate.css">
+
+    <link rel="stylesheet" href="/assets/css/bottom-area/tires.css">
+
     <link rel="shortcut icon" href="/images/logo.ico" type="image/x-icon" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="canvas">
         <div class="dark"></div>
+
+        <!--inicio da area superior -------------------------------------->
+        <!--simbolo Mercedes ao fundo-->
         <div class="simbol__large">
             <div class="simbol__large--triangle1"></div>
             <div class="simbol__large--triangle1-1"></div>
             <div class="simbol__large--triangle1-adjust"></div>
+            <div class="simbol__large--triangle1-1-adjust"></div>
             <div class="simbol__large--triangle2"></div>
             <div class="simbol__large--triangle2-1"></div>
             <div class="simbol__large--triangle2-adjust"></div>
-            <div class="simbol__large--triangle3-1"></div>
+            <div class="simbol__large--triangle2-2-adjust"></div>
+            <div class="simbol__large--adjust"></div>
+            <div class="simbol__large--adjust2"></div>
+            <div class="simbol__large--adjust3"></div>
         </div>
+
+        <!--area do parabrisa e vidros laterais-->
         <div class="window">
             <div class="window-frame-top"></div>
             <div class="window-frame-left"></div>
@@ -44,55 +78,40 @@
             <div class="window-frame-right"></div>-
             <div class="window-frame-bottom"></div>
         </div>
-        
+         <!--fim da area superior -------------------------------------->
+
+        <!--inicio da area inferior -------------------------------------->
         <div class="bottom">
-            
+            <!--area do capô-->
             <div class="creases__hood--left"></div>
             <div class="creases__hood--left-adjust"></div>
             <div class="creases__hood--right"></div>
             <div class="creases__hood--right-adjust"></div>
-            <div class="hood"></div>
+
+             <!--luzes-->  
             <div class="left-glow glow"></div>
             <div class="right-glow glow"></div>
-    
+            
+            <!--ajustes lado esquerdo topo da parte inferior-->
             <div class="bottom-top-left bottom-top">
                 <div class="adjust-1"></div>
                 <div class="adjust-2"></div>
                 <div class="adjust-3"></div>
                 <div class="adjust-4"></div>
             </div>
+
+            <!--ajustes lado direito topo da parte inferior-->
             <div class="bottom-top-right bottom-top">
                 <div class="adjust-1"></div>
                 <div class="adjust-2"></div>
                 <div class="adjust-3"></div>
                 <div class="adjust-4"></div>
             </div>
-            <div class="light-left light">
-                <div class="top-line"></div>
-                <div class="side-line"></div>
-                <div class="bottom-line"></div>
-                <div class="inner-triangle"></div>
-                <div class="bulb"></div>
-    
-                <div class="bottom-extend">
-                    <div class="bottom-extend-left"></div>
-                    <div class="bottom-extend-bottom"></div>
-                    <div class="bottom-extend-right"></div>
-                </div>
-            </div>
-            <div class="light-right light">
-                <div class="top-line"></div>
-                <div class="side-line"></div>
-                <div class="bottom-line"></div>
-                <div class="inner-triangle"></div>
-                <div class="bulb"></div>
-    
-                <div class="bottom-extend">
-                    <div class="bottom-extend-left"></div>
-                    <div class="bottom-extend-bottom"></div>
-                    <div class="bottom-extend-right"></div>
-                </div>
-            </div>
+            
+            <!--area dos farois-->  
+            <div class="light-left light"></div>
+            <div class="light-right light"></div>
+
             <div class="headlight__left"></div>
             <div class="headlight__left--adjust1"></div>
             <div class="headlight__left--adjust2"></div>
@@ -115,26 +134,23 @@
             <div class="headlight__right--mid"></div>
             <div class="headlight__right--hig"></div>
 
+            <!--simbolo capô-->  
             <div class="simbol__top"></div>
            
+            <!--pneus-->  
             <div class="tires__left"></div>
             <div class="tires__right"></div>
 
+            <!--grade superior frontal-->  
             <div class="grilles__top"></div>
-            <div class="grilles__top--red"></div>
             <div class="grilles__top--left"></div>
-            <div class="grilles__top--left-red"></div>
-           
-            <div class="grilles__top--left2"></div>
+            <div class="grilles__top--left-adjusts"></div>
+            <div class="grilles__top--left-adjusts2"></div>
             <div class="grilles__top--right"></div>
-            <div class="grilles__top--right-red"></div>
-            
-        
+            <div class="grilles__top--right-adjusts"></div>
+            <div class="grilles__top--right-adjusts2"></div>
             <div class="grilles__top1"></div>
-            <div class="grilles__top1--red"></div>
-            
-            
-            
+    
             <div class="grilles__in--left"></div>
             <div class="grilles__in--left-adjust1"></div>
             <div class="grilles__in--left-adjust2"></div>
@@ -158,21 +174,21 @@
                 <div class="simbol__front--triangle3-1"></div>  
              </div>
             
+            <!--grade inferior frontal-->  
             <div class="grilles__bottom"></div>
-            <div class="grilles__bottom--red"></div>
             <div class="grilles__bottom--finish"></div>
             <div class="grilles__finish--adjust"></div>
             <div class="grilles__finish--adjust1"></div>
             
-            
-
             <div class="grilles__bottom--middle"></div>
             <div class="grilles__middle--adjust1"></div>
+
             <div class="grilles__middle--vertical1"></div>
             <div class="grilles__middle--vertical2"></div>
             <div class="grilles__middle--vertical3"></div>
             <div class="grilles__middle--vertical4"></div>
             <div class="grilles__middle--vertical5"></div>
+
             <div class="grilles__middle--angulo1"></div>
             <div class="grilles__middle--angulo1-1"></div>
             <div class="grilles__middle--angulo2"></div>
@@ -180,9 +196,10 @@
             <div class="grilles__middle--angulo3"></div>
             <div class="grilles__middle--angulo4"></div>
             <div class="grilles__middle--adjust2"></div>
+
             <div class="grilles__bottom--append"></div>
 
-
+             <!--ajustes laterais grade inferior frontal-->  
             <div class="grilles__bottom--left"></div>
             <div class="grilles__bottom--left-base1"></div>
             <div class="grilles__bottom--left-base2"></div>
@@ -205,56 +222,25 @@
             <div class="grilles__bottom--right-adjust4"></div>
             <div class="grilles__bottom--right-adjust4-1"></div>
             
+            <!--laterais-->  
             <div class="grilles__side--left"></div>
             <div class="grilles__side--right"></div>
 
+            <!--placa-->  
             <div class="license__plate">
-                <p>A-Class L Sport</p>
-             </div>
-
-
-            <div class="grilles">
-                <div class="shade-mid shade"></div>
-                <div class="shade-left shade"></div>
-                <div class="shade-right shade"></div>
-                <div class="shadow shadow-left"></div>
-                <div class="shadow shadow-right"></div>
-    
-                <div class="grilles-box">
-                    <div class="line-1 line"></div>
-                    <div class="line-2 line"></div>
-                    <div class="line-3 line"></div>
-                    <div class="line-4 line"></div>
-                    <div class="line-5 line"></div>
-                    <div class="line-6 line"></div>
-                    <div class="line-7 line"></div>
-                    <div class="audi-logo">
-                        <div class="circle-1 circle"></div>
-                        <div class="circle-2 circle"></div>
-                        <div class="circle-3 circle"></div>
-                        <div class="circle-4 circle"></div>
+                <div class="license__plate--config">
+                    <div class="desc">
+                        A-Class L
                     </div>
-                    <div class="overlay-left"></div>
-                    <div class="overlay-right"></div>
-                </div>
-                <div class="grill-left grill-side">
-                    <div class="outer-line-1 left-outer-line-1"></div>
-                    <div class="outer-line-2 left-outer-line-2"></div>
-                    <div class="semi-circle-box left-semi-circle-box">
-                        <div class="semi-circle left-semi-circle"></div>
+                    <div class="desc">
+                        Sport 
                     </div>
-                    <div class="bottom-curve-left-box bottom-curve-box"></div>
-                </div>
-                <div class="grill-right grill-side">
-                    <div class="outer-line-1 right-outer-line-1"></div>
-                    <div class="outer-line-2 right-outer-line-2"></div>
-                    <div class="semi-circle-box right-semi-circle-box">
-                        <div class="semi-circle right-semi-circle"></div>
-                    </div>
-                    <div class="bottom-curve-right-box bottom-curve-box"></div>
                 </div>
             </div>
         </div>
+        <!--fim da area inferior -------------------------------------->
+
+        <!--espelhos retrovisores-->  
         <div class="mirrors">
             <div class="left-mirror mirror">
                 <div class="triangle"></div>
@@ -269,8 +255,6 @@
                 </div>
             </div>
         </div>
-    </div>
-    <footer>
-    </footer>
+        <div class="assignature"> Scratch Mercedes-Benz @Gilbeto Dalcin - 2021</div> 
 </body>
 </html>

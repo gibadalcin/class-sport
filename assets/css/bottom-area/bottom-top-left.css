@@ -1,0 +1,59 @@
+/*lateral esquerda do topo da area inferior*/
+.bottom-top-left {
+    transform: rotate(-26deg);
+    left: 3%;
+}
+
+.bottom-top-left::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    clip-path: polygon(0 40%, 100% 0, 100% 100%, 0 60%);
+    background-color: #fff;
+}
+
+.bottom-top-left .adjust-1 {
+    height: 90%;
+    width: 45%;
+    background-color: black;
+    border-radius: 100%;
+    z-index: 2;
+    top: 58%;
+    left: 5%;
+}
+
+.bottom-top-left .adjust-2 {
+    height: 60%;
+    width: 55%;
+    background-color: black;
+    background-color: red;
+    background-color: #fff;
+   
+    border-radius: 100%;
+    z-index: 1;
+    top: 45%;
+    right: 0%;
+}
+
+.bottom-top-left .adjust-3 {
+    height: 60%;
+    width: 45%;
+    background-color: black;
+    background-color: #fff;
+    border-radius: 100%;
+    z-index: 1;
+    top: 15%;
+    left: 3%;
+}
+
+.bottom-top-left .adjust-4 {
+    height: 80%;
+    width: 55%;
+    background-color: black;
+    border-radius: 100%;
+    z-index: 1;
+    top: -40%;
+    right: -1%;
+    transform: rotate(-5deg);
+}

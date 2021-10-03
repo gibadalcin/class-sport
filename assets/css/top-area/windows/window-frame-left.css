@@ -1,0 +1,19 @@
+.window-frame-left {
+    height: 100%;
+    width: 25%;
+    top: 20%;
+    left: 0%;
+    overflow: hidden;
+}
+
+.window-frame-left::after {
+    content: "";
+    position: absolute;
+    height: 310%;
+    width: 100%;
+    border-left: 0.3vw solid rgba(255, 255, 255, 0.815);
+    border-radius: 100%;
+    transform: rotate(35deg);
+    top: -85%;
+    left: 15%;
+}

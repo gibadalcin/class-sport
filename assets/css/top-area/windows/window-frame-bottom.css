@@ -1,0 +1,21 @@
+/*linhas inferiores parabrisa*/
+.window-frame-bottom {
+    height: 15%;
+    width: 100%;
+    /* background-color: #ffffff; */
+    background-image: linear-gradient( to right, #fff, rgba(255, 255, 255, 0.267), #fff);
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -20%;
+    border-radius: 50% 50% 0 0;
+}
+
+.window-frame-bottom::after {
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 200%;
+    width: 100%;
+    top: 4%;
+    border-radius: 100%;
+}

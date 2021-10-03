@@ -1,0 +1,22 @@
+/*area dos espelhos*/
+.mirrors {
+    height: 11%;
+    width: 100%;
+    top: 35%;
+}
+
+.triangle {
+    height: 55%;
+    width: 27%;
+    background-color: #000000;
+    border: 1px solid #ffffffb4;
+    bottom: 0;
+}
+
+.reflection {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#000, rgba(0, 0, 92, 0.596));
+    border-radius: 100%;
+}
+

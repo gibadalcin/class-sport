@@ -1,4 +1,6 @@
 /*espaço grade central inferior*/
+
+/*linha superior grade central inferior*/
 .grilles__bottom {
     position: absolute;
     width: 62%;
@@ -9,6 +11,8 @@
     left: 19.5%;
     top: 86%;
 }
+
+/*linhas internas grade central inferior*/
 .grilles__bottom--middle {
     position: absolute;
     width: 61%;
@@ -39,6 +43,8 @@
     left: 19%;
     top: 108%;
 }
+
+/*linha inferior e detalhes finais grade central inferior*/
 .grilles__bottom--append {
     position: absolute;
     width: 54%;

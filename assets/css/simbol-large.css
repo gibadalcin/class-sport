@@ -1,0 +1,156 @@
+.simbol__large {
+    width: 100%;
+    height: 150%;
+    border: 8px solid #ccc;
+    border-radius: 50% 50% 50% 50%;
+    border-left: transparent;
+    border-bottom: transparent;
+    border-right: transparent;
+    transform: rotate(30deg);
+    bottom: 0px;
+    left: 20%;
+}
+.simbol__large--triangle1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 0%;
+    height: 0%;
+    border-bottom: 14rem solid #ccc;
+    border-left: 1.2rem solid transparent;
+    border-right: 1.2rem solid transparent;
+    transform: rotate(-30deg);
+    top: 6.4%;
+    left: 34.2%;
+}
+.simbol__large--triangle1-1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0;
+    height: 0;
+    border-top: 1rem solid #ccc;
+    border-left: 1.2rem solid transparent;
+    border-right: 1.2rem solid transparent;
+    transform: rotate(-30deg);
+    left: 44.8%;
+    top: 43.2%;;
+    box-sizing: border-box;
+}
+
+.simbol__large--triangle1-adjust {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 0%;
+    height: 0%;
+    border-bottom: 13.8rem solid white;
+    border-left: .5rem solid transparent;
+    border-right: .6rem solid transparent;
+    transform: rotate(-27.8deg);
+    top: 7%;
+    left: 35.3%;
+}
+
+.simbol__large--triangle1-1-adjust {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 0%;
+    height: 0%;
+    border-bottom: .75rem solid white;
+    border-left: .75rem solid transparent;
+    border-right: .75rem solid transparent;
+    transform: rotate(15deg);
+    top: 43%;
+    left: 44.9%;
+}
+
+.simbol__large--triangle2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 0%;
+    height: 0%;
+    border-bottom: 14rem solid #ccc;
+    border-left: 1.2rem solid transparent;
+    border-right: 1.2rem solid transparent;
+    transform: rotate(95deg);
+    top: 28.3%;
+    right: 25.2%;
+}
+.simbol__large--triangle2-1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0;
+    height: 0;
+    border-top: 1rem solid #ccc;
+    border-left: 1.2rem solid transparent;
+    border-right: 1.2rem solid transparent;
+    transform: rotate(95deg);
+    right: 46%;
+    top: 45%;;
+    box-sizing: border-box;
+}
+.simbol__large--triangle2-adjust {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 0%;
+    height: 0%;
+    border-bottom: 13.8rem solid white;
+    border-left: .5rem solid transparent;
+    border-right: .6rem solid transparent;
+    transform: rotate(97.4deg);
+    top: 27.8%;
+    right: 27%;
+}
+.simbol__large--triangle2-2-adjust {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 0%;
+    height: 0%;
+    border-bottom: .75rem solid white;
+    border-left: .75rem solid transparent;
+    border-right: .75rem solid transparent;
+    transform: rotate(141deg);
+    top: 44.6%;
+    left: 49.4%;
+}
+
+
+/*ajustes transparencia espelho dierioT*/
+.simbol__large--adjust {
+    position: relative;
+    width: 7.6%;
+    height: 2%;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 20% 0 60% 0;
+    top: 47.1%;
+    right: 25%;
+    transform: rotate(-30deg);
+}
+.simbol__large--adjust2 {
+    position: relative;
+    width: 5%;
+    height: 4%;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 30% 50% 60% 100%;
+    top: 44.8%;
+    right: 27.2%;
+    transform: rotate(-30deg);
+}
+
+

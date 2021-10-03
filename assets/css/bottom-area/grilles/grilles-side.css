@@ -1,3 +1,4 @@
+/*lateral esquerda*/
 .grilles__side--right {
     width: 4%;
     height: 96%;
@@ -9,6 +10,8 @@
     top:22%;
     border-radius: 0% 120% 50% 0%;
 }
+
+/*lateral direita*/
 .grilles__side--left {
     width: 4%;
     height: 96%;

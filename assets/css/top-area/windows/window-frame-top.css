@@ -1,0 +1,10 @@
+/*linhas superiores parabrisa*/
+.window-frame-top {
+    height: 25%;
+    width: 68%;
+    border-radius: 100%;
+    border-top: 0.25vw solid rgba(255, 255, 255, 0.486);
+    left: 50%;
+    top: 8%;
+    transform: translateX(-50%);
+}

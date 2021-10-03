@@ -1,0 +1,69 @@
+body {
+    margin-top: 300px;
+    margin: 0 auto;
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.canvas {
+    margin: 0 auto;
+    min-width: 570px;
+    width: 60%;
+    aspect-ratio: 1.5/1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 20%;
+    
+}
+
+.canvas * {
+    position: absolute;
+}
+
+.dark {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.781);
+    z-index: 3;
+    animation: dark 1s 1.5s linear forwards;
+}
+
+@keyframes dark {
+    to {
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
+
+.assignature {
+    position: inherit;
+    background:linear-gradient(45deg, black, grey, black);
+    top: 70%;
+    font-family: Caveat-Regular, Helvetica,Arial;
+    font-size: 22px;
+    padding: 2px 20px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+.creases__hood--right {
+    width: 12%;
+    height: 20%;
+    border-bottom: .1px currentColor #ccc;
+    border-right: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    transform: rotate(-35deg);
+    border-radius: 100% 60% 50% 10%;
+    right: 17.2%;
+    top: 5%;
+}
+.creases__hood--right-adjust {
+    width: 12%;
+    height: 20%;
+    border: .1px solid #10101b;
+    border-right: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    transform: rotate(-35deg);
+    border-radius: 100% 60% 50% 10%;
+    right: 17.3%;
+    top: 5%;
+}

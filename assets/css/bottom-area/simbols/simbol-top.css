@@ -1,0 +1,13 @@
+/*simbolo superior capô*/
+.simbol__top {
+    position: absolute;
+    width: 6%;
+    height: 8%;
+    border: 1px solid #CCC;
+    border-radius: 50%;
+    top: 25%;
+    right: 47%;
+    border-color:linear-gradient(#000, #222222);
+    clip-path: polygon( 10% 0, 90% 0, 100% 20%, 90% 84%, 90% 100%, 10% 100%, 10% 83%, 0% 20%);
+}
+

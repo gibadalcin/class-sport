@@ -1,0 +1,11 @@
+/*espelho esquerdo*/
+.left-mirror {
+    left: 3%;
+}
+
+.left-mirror .triangle {
+    right: -24%;
+    transform-origin: bottom left;
+    transform: rotate(-37deg);
+    clip-path: polygon(30% 13%, 0 0, 0 100%);
+}

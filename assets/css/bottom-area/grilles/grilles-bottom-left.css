@@ -1,79 +1,81 @@
-.grilles__bottom--right {
+/* entrada de ar lado esquerdo*/
+.grilles__bottom--left {
     width:15%;
     height: 48%;
     border: 1px solid white;
-    border-left: transparent;
+    border-right: transparent;
     border-bottom: transparent;
     border-top: transparent;
-    transform: rotate(-5deg);
+    transform: rotate(5deg);
     top: 74%;
-    right: .5%;
-    border-radius: 10% 40% 20% 60%;
+    left: 1%;
+    border-radius: 40% 10% 60% 20%;
 }
-.grilles__bottom--right-adjust1 {
+.grilles__bottom--left-adjust1 {
     width:20%;
     height: 52%;
     border: 1px solid white;
     border-right: transparent;
     border-bottom: transparent;
     border-left: transparent;
-    transform: rotate(-15deg);
+    transform: rotate(15deg);
     top: 73%;
-    right: .5%;
-    border-radius: 0% 40% 0% 0%;
+    left: 1%;
+    border-radius: 40% 0% 0% 0%;
 }
-.grilles__bottom--right-adjust2 {
+.grilles__bottom--left-adjust2 {
     width:11%;
     height: 33%;
     border: .1px solid white;
     border-top: transparent;
+   
     top: 78%;
-    right: 4.4%;
-    border-radius: 5% 40% 10% 20%;
+    left: 4.4%;
+    border-radius: 40% 5% 20% 10%;
 }
-.grilles__bottom--right-adjust3 {
+.grilles__bottom--left-adjust3 {
     position: absolute;
     width: 17%;
     height: 3%;
     background-color:  #333;
-    border-radius: 100% 160% 160% 100%;
-    transform: rotate(-5deg);
-    right: 2%;
+    border-radius: 160% 100% 100% 160%;
+    transform: rotate(5deg);
+    left: 3%;
     top: 86%;
 }
-.grilles__bottom--right-adjust3-1 {
+.grilles__bottom--left-adjust3-1 {
     position: absolute;
     width: 17%;
     height: 1%;
     background-color:  #ccc;
-    border-radius: 100% 160% 160% 100%;
-    transform: rotate(-5deg);
-    right: 2%;
+    border-radius: 160% 100% 100% 160%;
+    transform: rotate(5deg);
+    left: 3%;
     top: 87%;
 }
-.grilles__bottom--right-adjust4 {
+.grilles__bottom--left-adjust4 {
     position: absolute;
     width: 15%;
     height: 3%;
     background-color: #333;
-    border-radius: 100% 160% 160% 100%;
-    transform: rotate(-5deg);
-    right: 3%;
+    border-radius: 160% 100% 100% 160%;
+    transform: rotate(5deg);
+    left: 3%;
     top: 98%;
 }
-.grilles__bottom--right-adjust4-1 {
+.grilles__bottom--left-adjust4-1 {
     position: absolute;
     width: 15%;
     height: 1%;
     background-color: #ccc;
-    border-radius: 100% 160% 160% 100%;
-    transform: rotate(-5deg);
-    right: 3%;
+    border-radius: 160% 100% 100% 160%;
+    transform: rotate(5deg);
+    left: 3%;
     top: 99%;
 }
 
 
-.grilles__bottom--right-base1 {
+.grilles__bottom--left-base1 {
     width:16%;
     height: 35%;
     border: 1px solid white;
@@ -81,32 +83,30 @@
     border-left: transparent;
     border-right: transparent;
     top: 78%;
-    right: 2%;
-    border-radius: 10% 60% 20% 10%;
+    left: 3%;
+    border-radius: 60% 10% 10% 20%;
 }
-.grilles__bottom--right-base2 {
+.grilles__bottom--left-base2 {
     width:17%;
     height: 35%;
     border: 2px solid #333;
     border-top: transparent;
     border-left: transparent;
     border-right: transparent;
-    transform: rotate(-3deg);
+    transform: rotate(1deg);
     top: 80%;
-    right: 2%;
-    border-radius: 10% 60% 20% 10%;
+    left: 3%;
+    border-radius: 60% 10% 10% 20%;
 }
-.grilles__bottom--right-base3 {
+.grilles__bottom--left-base3 {
     width:18.6%;
     height: 35%;
     border: 2px solid white;
     border-top: transparent;
     border-left: transparent;
     border-right: transparent;
-    transform: rotate(-4.8deg);
+    transform: rotate(5deg);
     top: 82.5%;
-    right: 1.2%;
-    border-radius: 10% 100% 20% 10%;
+    left: 1.6%;
+    border-radius: 100% 10% 10% 20%;
 }
-
-

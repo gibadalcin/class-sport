@@ -1,0 +1,43 @@
+/*transparencia espelhos*/
+.mirror-bottom {
+    height: 40%;
+    border: 1px solid red;
+    border-color: transparent transparent #fff #fff;
+    width: 50%;
+    top: 15%;
+    transform: rotate(5deg);
+    right: 28%;
+    border-radius: 15px 20px 0 30px;
+}
+
+.mirror-bottom::after {
+    content: "";
+    position: absolute;
+    height: 50%;
+    width: 25%;
+    background-color:red;
+    top: 59%;
+    left: 104%;
+}
+
+.mirror-bottom::before {
+    content: "";
+    position: absolute;
+    height: 50%;
+    width: 33%;
+    top: -88%;
+    left: 45%;
+    border-radius: 50%;
+    border: 1px solid;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+    border-color: grey #fff transparent transparent;
+    transform: rotate(-6deg);
+}
+
+.right-mirror .mirror-bottom {
+    transform: rotate(-5deg) rotateY(180deg);
+    right: 20%;
+}

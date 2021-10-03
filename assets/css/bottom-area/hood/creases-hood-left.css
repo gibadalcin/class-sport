@@ -1,0 +1,25 @@
+.creases__hood--left {
+    width: 12%;
+    height: 20%;
+    border-bottom: .1px currentColor #ccc;
+    border-right: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    transform: rotate(35deg);
+    border-radius: 60% 100% 10% 50%;
+    left: 17.4%;
+    top: 5%;
+}
+.creases__hood--left-adjust {
+    width: 12%;
+    height: 20%;
+    border: .1px solid #10101b;
+    border-right: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    transform: rotate(35deg);
+    border-radius: 60% 100% 10% 50%;
+    left: 17.5%;
+    top: 5%;
+}
+

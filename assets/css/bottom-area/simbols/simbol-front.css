@@ -32,7 +32,7 @@
     border-left: .20rem solid transparent;
     border-right: .20rem solid transparent;
     left: 45%;
-    top: 5%;;
+    top: 48%;;
     box-sizing: border-box;
 }
 
@@ -47,7 +47,7 @@
     border-left: .20rem solid transparent;
     border-right: .20rem solid transparent;
     top: 44%;
-    left: 22%;
+    left: 21.8%;
     transform: rotate(60deg);
 }
 .simbol__front--triangle2-1 {
@@ -60,8 +60,8 @@
     border-bottom: .2rem solid #ccc;
     border-left: .20rem solid transparent;
     border-right: .20rem solid transparent;
-    left: 42%;
-    top: 10%;
+    left: 41.6%;
+    top: 51%;
     transform: rotate(60deg);
     box-sizing: border-box;
 }
@@ -77,7 +77,7 @@
     border-left: .20rem solid transparent;
     border-right: .20rem solid transparent;
     transform: rotate(-60deg);
-    left: 68%;
+    left: 68.7%;
     top: 44%;
 }
 .simbol__front--triangle3-1 {
@@ -91,7 +91,7 @@
     border-left: .20rem solid transparent;
     border-right: .20rem solid transparent;
     right: 40%;
-    top: 51%;
+    top: 50.4%;
     transform: rotate(-60deg);
     box-sizing: border-box;
 }

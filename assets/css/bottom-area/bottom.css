@@ -1,0 +1,8 @@
+/*area inferior do veiculo*/
+.bottom {
+    height: 50%;
+    width: 90%;
+    /* background-color: #006eff23; */
+    top: 41%;
+    border-radius: 30%;
+}
