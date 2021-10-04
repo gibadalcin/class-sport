@@ -21,7 +21,7 @@
 
 |     Mercedes-Benz Class L Sport    |
 | ---------------------------------- |
-| <image src="https://user-images.githubusercontent.com/69020289/135797122-9bd0d730-1122-4dc8-a0a9-93cdd6f6a89f.PNG" width="1080px"> | <image src="https://user-images.githubusercontent.com/69020289/133950319-e58fe72a-18ba-43fb-a20e-ed8282cb3454.PNG" width="270px"> |
+| <image src="https://user-images.githubusercontent.com/69020289/135797336-167a255b-48ef-4979-a136-13f512dbd1f8.PNG" width="1080px"> | <image src="https://user-images.githubusercontent.com/69020289/133950319-e58fe72a-18ba-43fb-a20e-ed8282cb3454.PNG" width="270px"> |
 | | |
 | | |
 
