@@ -2,7 +2,6 @@
 
 ### Descrição
 +  Scratch Mercedes Benz Class L Sport desenvolvido em HTML e CSS puros.
-+ Em desenvolvimento. 
 
 ---
 
