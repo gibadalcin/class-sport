@@ -1,7 +1,7 @@
 # classLSport
 
 ### Descrição
-+  Digital Sketch Mercedes Benz Class L Sport desenvolvido em HTML e CSS puros.
++  Sketch digital Mercedes Benz Class L Sport desenvolvido em HTML e CSS puros.
 
 ---
 
@@ -12,7 +12,7 @@
 ---
 
 ### Objetivos 
-+ Scratch desenvolvida como prática das linguagens e tecnologias utilizadas, com foco no CSS utilizando ângulos, sobreposições, animação, manipulação de bordas e cores.
++ Sketch desenvolvida como prática das linguagens e tecnologias utilizadas, com foco no CSS utilizando ângulos, sobreposições, animação, manipulação de bordas e cores.
  
  ---
  
