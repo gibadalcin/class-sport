@@ -1,4 +1,4 @@
-# classLSport
+# Class L Sport
 
 ### Descrição
 +  Sketch digital baseada no design da Mercedes Benz Class L Sport desenvolvida em HTML e CSS puros.
